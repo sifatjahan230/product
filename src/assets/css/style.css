@@ -1,0 +1,94 @@
+body {
+  font-family: 'Hind', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+   }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@media (max-width: 767px) {
+  .services-area {
+    padding-top: 75px;
+    padding-bottom: 80px; } }
+
+.single-services {
+  padding: 10px 0px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  -ms-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s; }
+
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .single-services {
+      padding: 30px 10px; } }
+  @media (max-width: 767px) {
+    .single-services {
+      padding: 30px 10px; } }
+  .single-services .services-icon i {
+    width: 100%;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s; }
+  .single-services .services-content .services-title {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s; }
+  
+   
+
+.btn-group button {
+  background-color: #FF6347; /* Green background */
+  border: 1px solid #FF4500; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+   .btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #FF4500;
+}
+
+
+#popup{visibility:hidden; position:absolute; top:30px; right:0px; background:ghostwhite; width:500px; height:100%;
+	opacity:0;
+	
+	}
+	#blur.active{
+	filter: opacity(.10);
+	height:100%;
+	overflow:hidden; 
+	
+	pointer-events:none;
+	user-select:none;
+	
+	}
+	#popup.active{
+	visibility:visible;
+	opacity:1;
+	
+	}

@@ -1,0 +1,9 @@
+#popup{
+  position:absolute;
+  top:30px; right:0px;
+  background:ghostwhite;
+  width:500px;
+  height:100%;
+	opacity:0;
+
+	}
