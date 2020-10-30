@@ -1,0 +1,88 @@
+.bottom-part{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height:35px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    border-radius: 10px; 
+    padding-top: 10px;
+}
+.pad-top{
+    padding-top:50px;
+}
+.con{
+    margin-left:10px
+}
+.t1{
+    text-align:left;
+}
+.del-style{
+    font-size:15px; font-weight:normal;
+}
+
+.t2{
+    text-align:left; font-size:16px;
+    font-weight:bold;
+}
+.b1{
+    width:200px;
+}
+.b2{
+    width:80%;
+}
+.b3{
+    width:20%;
+}
+.pop{
+    text-decoration:none;  color:white;
+}
+.s1{
+    background-color:black; height:50px;  padding-top:10px; padding-left:40px;  color:white;
+}
+.s2{
+    position:absolute; right:20px; background-color:black; color:white;
+}
+.b4{
+    width:80%; margin-left:10%; height:50px; background-color:tomato; position:absolute; bottom:20px; border:solid tomato; 
+}
+.b5{
+    color:white; font-size:18px;  padding-top:10px;
+}
+.b6{
+    width:80%; margin-left:10%; height:50px; background-color:blue; position:absolute; bottom:140px; border:solid blue; 
+}
+.b7{
+    color:white; font-size:18px;  padding-top:10px;
+}
+.p1{
+    padding-left:30px; padding-top:10px;
+}
+.p2{
+    position:absolute; right:20px;
+}
+.p3{
+    padding-left:30px;
+}
+.p4{
+    position:absolute; right:20px;
+}
+.p5{
+    padding-left:30px; padding-bottom:10px;
+}
+.p6{
+    position:absolute; right:20px;
+}
+.p7{
+    position:absolute; bottom:80px; left:90px;
+}
+.p8{
+    text-align:center;
+}
+.p9{
+    background-color:white
+}
+.pop-up{
+    display:active;position: absolute; top:5px !important;
+}
