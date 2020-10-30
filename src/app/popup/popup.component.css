@@ -1,9 +1,49 @@
-#popup{
-  position:absolute;
-  top:30px; right:0px;
-  background:ghostwhite;
-  width:500px;
-  height:100%;
-	opacity:0;
-
-	}
+  .p1{
+    background-color:black; height:50px;  padding-top:10px; padding-left:40px;  color:white;
+  }
+  .s2{
+    display:block; position:absolute;  top:10px; right:10px; width:500px; height:100%; 
+ overflow-y:hidden; background:ghostwhite;
+  }
+  .b1{
+    width:80%; margin-left:10%; height:50px; background-color:tomato; position:absolute; bottom:20px; border:solid tomato; 
+  }
+  .b2{
+    color:white; font-size:18px;  padding-top:10px;
+  }
+  .b3{
+    width:80%; margin-left:10%; height:50px; background-color:blue; position:absolute; bottom:140px; border:solid blue; 
+  }
+  .b4{
+    color:white; font-size:18px;  padding-top:10px;
+  }
+  .ss1{
+    position:absolute; right:20px; background-color:black; color:white;
+  }
+  .p2{
+    padding-left:30px; padding-bottom:10px;
+  }
+  .p3{
+    padding-left:30px; padding-top:10px;
+  }
+  .p4{
+    position:absolute; right:20px;
+  }
+  .p5{
+    padding-left:30px;
+  }
+  .p6{
+    position:absolute; right:20px;
+  }
+  .p7{
+    text-align:center;
+  }
+  .p8{
+    position:absolute; right:20px;
+  }
+  .p9{
+    position:absolute; bottom:80px; left:90px;
+  }
+  .ss2{
+    background-color:white
+  }
